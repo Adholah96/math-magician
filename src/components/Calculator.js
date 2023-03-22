@@ -1,3 +1,15 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
+
+import PropTypes from 'prop-types';
+
+function Display({ value }) {
+  return <div className="display">{value}</div>;
+}
+
+Display.propTypes = {
+  value: PropTypes.number.isRequired,
+};
+
 function Calculator() {
   const createDigits = () => {
     const empty = [];
@@ -13,7 +25,7 @@ function Calculator() {
   return (
     <div className="Application">
       <div className="calc">
-        <div className="display">0</div>
+        <Display value={0} />
         <div className="operands-container">
           <div className="left-operand">
             <button type="button">AC</button>
