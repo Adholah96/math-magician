@@ -122,7 +122,6 @@ npm test
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[More APIs]**
-- [ ] **[Better UI design]**
 - [ ] **[More functionality]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
