@@ -1,0 +1,70 @@
+:root {
+  --primary: #f5913e;
+  --secondary: #858694;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+body {
+  background-color: #eee;
+}
+.Application {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.calc {
+  width: 100%;
+  max-width: 300px;
+  background-color: #fff;
+  border: 1px solid gray;
+}
+.display {
+  padding: 15px;
+  text-align: right;
+  background-color: var(--secondary);
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+button {
+  appearance: none;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 20px;
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid rgb(232, 230, 230);
+}
+button:hover {
+  opacity: 0.4;
+}
+.operands-container {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+}
+.right-operand button {
+  width: 100%;
+  background-color: var(--primary);
+  border: 1px solid rgb(171, 170, 170);
+}
+.operands-container .left-operand {
+  grid-template-columns: 4fr 4fr 4fr;
+}
+.left-operand {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+.left-operand button {
+  width: 100%;
+}
+.left-operand button:nth-child(13) {
+  grid-column: span 2;
+}
