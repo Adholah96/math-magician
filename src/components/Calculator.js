@@ -68,13 +68,13 @@ function Calculator() {
             <button type="button" onClick={() => handleClick('+')}>
               +
             </button>
-            <button type="button" onClick={() => handleClick('*')}>
+            <button type="button" onClick={() => handleClick('x')}>
               *
             </button>
             <button type="button" onClick={() => handleClick('-')}>
               -
             </button>
-            <button type="button" onClick={() => handleClick('/')}>
+            <button type="button" onClick={() => handleClick('÷')}>
               /
             </button>
             <button type="button" onClick={() => handleClick('=')}>
