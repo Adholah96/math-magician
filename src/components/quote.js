@@ -37,13 +37,9 @@ const Quote = () => {
     return <p>{error}</p>;
   }
   return (
-    <div>
-      <p>
-        &ldquo
-        {quote}
-        &rdquo
-      </p>
-      <p>{author}</p>
+    <div className="quotes">
+      <p className="quotes-author">{author}</p>
+      <p className="quotes-quote">{quote}</p>
     </div>
   );
 };
