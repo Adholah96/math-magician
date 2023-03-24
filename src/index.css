@@ -11,7 +11,6 @@
 }
 
 body {
-  background-color: #eee;
   background: #e7e8f6;
 }
 
@@ -81,12 +80,14 @@ button:hover {
 .left-operand button:nth-child(13) {
   grid-column: span 2;
 }
+
 #root {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 4rem;
 }
+
 .quotes {
   border: 1px solid gray;
   padding: 10px;
@@ -94,10 +95,12 @@ button:hover {
   box-shadow: 10px 10px 39px -7px var(--primary);
   width: 30%;
 }
+
 .quotes-author {
   font-weight: bold;
   font-size: 15px;
 }
+
 .quotes-quote {
   font-size: 15px;
 }
