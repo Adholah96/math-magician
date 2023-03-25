@@ -50,6 +50,8 @@
 ### Key Features <a name="key-features"></a>
 
 - **[React]**
+- **[React Hooks]**
+- **[React API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,8 +123,8 @@ npm test
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[More APIs]**
 - [ ] **[More functionality]**
+- [ ] **[More pages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
