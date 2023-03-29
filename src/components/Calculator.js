@@ -43,6 +43,7 @@ function Calculator() {
   };
   return (
     <div className="Application">
+      <h2>Lets do some Math</h2>
       <div className="calc">
         <Display objState={objState} />
         <div className="operands-container">
