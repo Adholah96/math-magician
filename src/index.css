@@ -12,20 +12,22 @@
 
 body {
   background: #e7e8f6;
+  overflow-y: hidden;
 }
 
 .Application {
+  font-size: 20px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   min-height: 100vh;
+  margin-top: 5rem;
+  gap: 10rem;
+  padding: 10rem 20rem 0 20rem;
 }
 
 .calc {
   width: 100%;
-  max-width: 300px;
-  background-color: #fff;
-  border: 1px solid gray;
+  max-width: 500px;
 }
 
 .display {
@@ -81,19 +83,14 @@ button:hover {
   grid-column: span 2;
 }
 
-#root {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4rem;
-}
-
 .quotes {
+  margin: 20rem auto;
   border: 1px solid gray;
-  padding: 10px;
+  padding: 100px;
   border-radius: 8px;
   box-shadow: 10px 10px 39px -7px var(--primary);
-  width: 30%;
+  width: 70%;
+  line-height: 4rem;
 }
 
 .quotes-author {

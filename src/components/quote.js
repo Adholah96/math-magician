@@ -16,6 +16,8 @@ const Quote = () => {
             headers: {
               'X-Api-Key': 'pV0Pa7oebj1fTcUvkC0eWw==KSO3aCttPAkYBYkD',
             },
+            mode: 'cors',
+            credentials: 'same-origin',
           }
         );
         const data = await res.json();
