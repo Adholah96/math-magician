@@ -82,17 +82,21 @@ button:hover {
 .left-operand button:nth-child(13) {
   grid-column: span 2;
 }
+
 .div-container {
   padding: 2rem;
 }
+
 .div-container h2 {
   margin-bottom: 3rem;
   font-size: 20px;
 }
+
 .div-container p {
   font-size: 20px;
   line-height: 3rem;
 }
+
 nav {
   font-size: 20px;
   display: flex;
@@ -108,10 +112,12 @@ nav ul {
   align-items: center;
   gap: 2rem;
 }
+
 nav ul li {
   cursor: pointer;
   transition: 0.25s ease-out;
 }
+
 nav ul li:hover {
   text-decoration: underline;
 }
